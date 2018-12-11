@@ -40,13 +40,13 @@ header {
 }
 
 
-@media(min-width: 768px)
+@media(min-width: 900px)
 {
-    .title{
-        display: inline-block;
-        height: 70px;
-        line-height: 70px;
-    }
+        .title{
+            display: inline-block;
+            height: 70px;
+            line-height: 70px;
+        }
 
     .logo {
         margin-left: 10px;
@@ -60,7 +60,7 @@ header {
         padding-left: 30px;
     }
 }
-@media(max-width: 768px)
+@media(max-width: 900px)
 {
     .title{display: none;}
     .logo{display: none;}
@@ -118,7 +118,7 @@ h1{
     padding: 40px;
     background-color: white;
     border-radius: 10px;
-    width: 935px;
+    width: 600px;
 }
 .mid{
     margin: 0 auto;
@@ -162,4 +162,13 @@ clear: both;
 
 .primer{
     padding-left: 15px;
+}
+.fun{
+    min-height: 100%;
+    padding: 20px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
 }
